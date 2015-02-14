@@ -4,28 +4,28 @@
  
  \textbf{Entornos de desarrollo integrado}
  
-\LaTeXe{}   puede ser considerado como un lenguaje de programación de alto nivel como lo son Java, Python y Visual Basic. Como lenguaje de programación, es posible crear programas cortos utilizando programas rudimentarios como son el Bloc de Notas en Windows o el Note App de Mac, pero a medida que se realizan proyectos de alta complejidad, como los son libros, artículos y presentaciones, es altamente recomendable el uso de un \emph{entorno de desarrollo } enfatizado en \LaTeXe{}. Actualmente existen diversos entornos en la web, muchos responden a diferentes necesidades, existen entornos en la nube (\href{https://www.sharelatex.com}{ShareLaTeX}) que tienen la desventaja de no tener suficientes paquetes de personalización; \emph{'Add-ins'} que son compiladores agregados a entornos de desarrollo de otros lenguajes, por ejemplo el proyecto \href{texlipse.sourceforge.net}{\textbf{TeXlipse}} cuyo propósito es de dotar un compilador en \TeX{} para Eclipse; y por ultimo, los entornos especializados, que para esta guía serán necesarios y se recomendara el proyecto de software libre \href{www.xm1math.net/texmaker/}{\textbf{Texmaker}}, que permiten la instalación de paquetes avanzados y la personalización adaptada a usuarios.
+\LaTeXe{}   puede ser considerado como un lenguaje de programación de alto nivel como lo son Java, Python y Visual Basic. Como lenguaje de programación, es posible crear programas cortos utilizando programas rudimentarios como son el Bloc de Notas en Windows o el Note App de Mac, pero a medida que se realizan proyectos de alta complejidad, como los son libros, artículos y presentaciones, es altamente recomendable el uso de un \emph{entorno de desarrollo } enfatizado en \LaTeXe{}. Actualmente existen diversos entornos en la web, muchos responden a diferentes necesidades, existen entornos en la nube (\href{https://www.sharelatex.com}{ShareLaTeX}) que tienen la desventaja de no tener suficientes paquetes de personalización; \emph{'Add-ins'} que son compiladores agregados a entornos de desarrollo de otros lenguajes, por ejemplo el proyecto \href{texlipse.sourceforge.net}{\textbf{TeXlipse}} cuyo propósito es de dotar un compilador en \TeX{} para Eclipse; y por ultimo, los entornos especializados, que para esta guía serán necesarios y se recomendara el proyecto de software libre \href{http://texstudio.sourceforge.net/}{\textbf{\TeX Studio}}, que permiten la instalación de paquetes avanzados y la personalización adaptada a usuarios.
 
 \textbf{Pasos para la instalación de un ambiente en Windows}
 
 \begin{enumerate}
-	\item Visitar la pagina del proyecto \href{http://miktex.org/download}{ \textbf{ Mik\TeX{}}} y bajar el    \href{http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-2.9.5105.exe}{instalador}	
+	\item Visitar la pagina del proyecto \href{http://miktex.org/download}{ \textbf{Mik\TeX{}}} y bajar e instalar el ejecutable de ultima versión.
 	\item Seguir los pasos instructivos en pantalla.
 	\item Al terminar la instalación, reiniciar el equipo.
-	\item  Realizar la instalación del ambiente \href{www.xm1math.net/texmaker/}{\textbf{Texmaker}}
+	\item  Realizar la instalación del ambiente \href{http://texstudio.sourceforge.net/}{\textbf{\TeX Studio}}, buscar la ultima versión.
 	\item Al terminar la instalación reiniciar el equipo.
 \end{enumerate}
 
 \textbf{Creación del documento ¡Hola Mundo!}
 
-Al terminar los pasos anteriores, el equipo tendrá en este momento una instalación básica de \LaTeXe. Una practica común para la prueba de cualquier instalación de un lenguaje de programación, es la creación de un programa que le presente al usuario el texto \emph{Hello World!}. Para ello, daremos doble clic sobre el nuevo programa \textbf{\TeX maker} y sobre la ventana que se abre, iremos a ``\emph{File $ \rightarrow $ New}'' y esto crea un nuevo documento, sobre esta nueva planilla introduciremos el siguiente código:
+Al terminar los pasos anteriores, el equipo tendrá en este momento una instalación básica de \LaTeXe. Una practica común para la prueba de cualquier instalación de un lenguaje de programación, es la creación de un programa que le presente al usuario el texto \emph{Hello World!}. Para ello, daremos doble clic sobre el nuevo programa \textbf{\TeX Studio} y sobre la ventana que se abre, iremos a ``\emph{File $ \rightarrow $ New}'' y esto crea un nuevo documento, sobre esta nueva planilla introduciremos el siguiente código:
 
 
 \begin{lstlisting}
 \documentclass[11pt]{article} 
 
 \begin{document}
-Hello World!
+Hello World! \\ comentario utilizando  % %* \LaTeXe  *)
 \end{document}
 \end{lstlisting}
 
